@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>邱心瑀｜個人介紹</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Iansui&display=swap" rel="stylesheet">
+<style>
+@import url("https://fontsapi.zeoseven.com/613/main/result.css");
+:root{--cream:#fffaf0;--pink:#f5c9d1;--purple:#d9cafa;--yellow:#f8e69b;--ink:#574c60;--muted:#827687}
+*{box-sizing:border-box;font-family:"YRDZST-Regular","楊任東竹石體",serif}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:"YRDZST-Regular","楊任東竹石體",serif} body,body *{font-family:"YRDZST-Regular","楊任東竹石體",serif}
+nav{position:sticky;top:0;z-index:5;background:#fffaf0ed;backdrop-filter:blur(10px);display:flex;justify-content:space-between;align-items:center;gap:16px;padding:17px max(6%,calc((100% - 1100px)/2));border-bottom:1px solid #eee5dc}
+.logo{font-size:22px;font-weight:bold;white-space:nowrap}.logo span{color:#cb8da9}
+.links{display:flex;gap:22px;flex-wrap:wrap}.links a{font-size:14px;text-decoration:none;color:var(--ink)}.links a:hover{color:#c17da0}
+main{max-width:1100px;margin:auto}
+.hero{padding:88px 9%;min-height:410px;display:flex;align-items:center}
+.hero-copy{max-width:720px;position:relative;padding:18px 12px 18px 0}.hero-stars{position:absolute;inset:-20px auto auto -12px;width:100%;height:100%;pointer-events:none;overflow:visible}.hero-stars span{position:absolute;color:#c995b1;font-size:26px;line-height:1;text-shadow:1px 1px 0 #fff4f5;transform:rotate(-12deg)}.hero-stars .star-a{top:0;left:3%;font-size:25px}.hero-stars .star-b{top:13%;right:8%;font-size:19px;transform:rotate(15deg)}.hero-stars .star-c{bottom:9%;left:43%;font-size:22px;transform:rotate(8deg)}.hero-stars .star-d{bottom:2%;right:3%;font-size:16px;transform:rotate(-20deg)}
+.eyebrow,.kicker{font-size:13px;letter-spacing:2px;color:#b47b9b}
+h1{font-size:clamp(48px,7vw,76px);line-height:1.25;margin:18px 0;color:var(--ink)}
+h1 em{font-style:normal;color:#ce8ca9}
+.intro{font-size:18px;line-height:2.15;color:var(--muted);max-width:650px}
+.cta{display:inline-block;background:#65536d;color:white;text-decoration:none;padding:13px 22px;border-radius:30px;margin-top:16px;font-size:14px}
+section{padding:65px 7%}
+.pink-section{background:#f9e9e9}
+.heading{text-align:center;margin-bottom:30px}.heading h2{font-size:36px;margin:9px 0}.heading p{color:var(--muted);font-size:14px}
+.about-card{max-width:760px;margin:auto;background:#fffaf7;padding:32px;border-radius:22px;text-align:center;line-height:2.2;font-size:16px;color:#817386;box-shadow:0 9px 28px #755a6310}
+.skills{display:grid;grid-template-columns:1fr;gap:16px}
+.skill{padding:25px 17px;border-radius:20px;min-height:170px}
+.skill:nth-child(1){background:#f5dce3}.skill:nth-child(2){background:#e8def7}.skill:nth-child(3){background:#f8edbf}.skill:nth-child(4){background:#dcece3}
+.skill .number{font-size:13px;letter-spacing:2px;color:#987b94}
+.skill h3{font-size:19px;margin:13px 0 9px}.skill p{font-size:14px;line-height:1.9;color:#776e79;margin:0}
+.contact{background:#f8e9d8;text-align:center}.contact p{font-size:16px;line-height:2;color:var(--muted)}
+footer{text-align:center;padding:23px;font-size:13px;color:#928793}
+@media(max-width:700px){nav{align-items:flex-start;flex-direction:column;padding:15px 6%}.links{gap:14px}.hero{padding:65px 7%;min-height:350px}.intro{font-size:16px}.skills{grid-template-columns:1fr}section{padding:48px 6%}.heading h2{font-size:30px}.about-card{padding:23px 18px}}
+@media(max-width:370px){.links{gap:10px}.links a{font-size:12px}.skills{gap:9px}.skill{padding:18px 12px}}
+
+/* Subtle hand-drawn star decorations throughout the page */
+nav, .hero, section, footer { position:relative; }
+nav::after, .hero::after, section::after, footer::after {
+  content:"✧";
+  position:absolute;
+  color:#c995b1;
+  font-size:22px;
+  line-height:1;
+  opacity:.72;
+  pointer-events:none;
+  font-family:serif;
+  text-shadow:1px 1px 0 #fff4f5;
+}
+nav::after { right:5%; bottom:12px; transform:rotate(12deg); }
+.hero::after { right:7%; top:34px; font-size:27px; transform:rotate(-12deg); }
+section:nth-of-type(1)::after { top:22px; right:8%; transform:rotate(15deg); }
+section:nth-of-type(2)::after { top:25px; left:7%; font-size:18px; transform:rotate(-10deg); }
+section:nth-of-type(3)::after { top:22px; right:9%; font-size:19px; transform:rotate(20deg); }
+footer::after { left:8%; top:12px; font-size:17px; transform:rotate(-15deg); }
+
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">hello<span>.</span> portfolio ♡</div>
+  <div class="links">
+    <a href="#home">首頁</a><a href="#about">關於我</a><a href="#skills">能力</a><a href="#contact">聯絡方式</a>
+  </div>
+</nav>
+<main>
+<header class="hero" id="home">
+  <div class="hero-copy">
+    <div class="hero-stars" aria-hidden="true"><span class="star-a">✧</span><span class="star-b">✳</span><span class="star-c">☆</span><span class="star-d">✦</span></div>
+    <div class="eyebrow">✿ WELCOME TO MY CREATIVE SPACE ✿</div>
+    <h1>你好，<br><em>我是邱心瑀。</em></h1>
+    <p class="intro">我喜歡從生活裡蒐集靈感，將不同的觀察與想像編織成作品。對我來說，創作就像說故事，從一個念頭出發，慢慢找到能觸動人的表達方式。</p>
+    <a class="cta" href="#about">認識更多關於我　→</a>
+  </div>
+</header>
+<section class="pink-section" id="about">
+  <div class="heading"><div class="kicker">ABOUT ME</div><h2>關於我 ♡</h2></div>
+  <div class="about-card">我享受把腦海中的片段整理成一段有脈絡的故事，也珍惜與不同的人交流時，意外產生的新觀點。每一次想法的碰撞，都可能帶來原本沒想過的方向；我希望保持好奇、勇於嘗試，讓每件作品都留下自己的觀察與感受。</div>
+</section>
+<section id="skills">
+  <div class="heading"><div class="kicker">MY STRENGTHS</div><h2>我的能力 ✧</h2><p>從故事出發，讓想法彼此連結。</p></div>
+  <div class="skills">
+    <article class="skill"><div class="number">01 / STORY</div><h3>故事敘事力</h3><p>整理想傳達的核心，安排內容脈絡，讓作品有起點、有情緒，也有值得記住的訊息。</p></article>
+    <article class="skill"><div class="number">02 / PERSPECTIVE</div><h3>觀點整合力</h3><p>聆聽不同想法、比較各種觀點，重新梳理資訊，找到能讓概念更完整的切入角度。</p></article>
+    <article class="skill"><div class="number">03 / COLLABORATION</div><h3>共創溝通力</h3><p>樂於分享與交流，透過討論激發彼此靈感，將不同意見轉化為共同前進的力量。</p></article>
+  </div>
+</section>
+<section class="contact" id="contact">
+  <div class="heading"><div class="kicker">GET IN TOUCH</div><h2>一起創造更多可能！ ♡</h2></div>
+  <p>如果你也喜歡交流想法、探索新的創作可能，<br>歡迎與我聯絡，期待一起碰撞出更多靈感。</p>
+  <a class="cta" href="mailto:113405153@g.nccu.edu.tw">✉ 113405153@g.nccu.edu.tw</a>
+</section>
+</main>
+<footer>Made with ♡ by 邱心瑀 · 2026</footer>
+</body>
+</html>
